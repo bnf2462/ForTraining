@@ -20,7 +20,7 @@ namespace ConsoleApp3
             var result = (songLyrics.Contains("hi"));
             Console.WriteLine(result);
 
-            // Searching strings with startwith and endwith method.
+            // Searching strings with startwith and endwith method. (ET:2021/12/14 16:40)
             result = (songLyrics.StartsWith("You"));
             Console.WriteLine(result);
 
