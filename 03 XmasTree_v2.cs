@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
 bool result = int.TryParse(Console.ReadLine(), out int number);
 if (!result)
 {
@@ -39,7 +38,5 @@ for (int i = 0; i < number; i++)
     }
     Console.WriteLine();
 }
-
-
 
 Console.ReadKey();
